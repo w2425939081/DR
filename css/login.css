@@ -1,0 +1,433 @@
+
+/*公共页上部和下部*/
+
+*{margin:0;padding:0;border:0; font-family: 微软雅黑;}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	position: relative;
+    height: 64px;
+    border-bottom: 1px solid #e8cbbd;
+    box-shadow: 0 0 4px #aaa;
+    z-index: 2;
+}
+.headercenter{
+	width:1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-left{
+	width:166px;
+	height:37px;
+	background:url('../images/logo.png') no-repeat;
+	float: left;
+	margin-top:14px;
+}
+.header-right{
+	height:64px;
+	float: right;
+}
+
+.header-right ul{
+	width: 100%;
+	height:40px;
+	font-size:12px;
+	list-style:none;
+	margin-top: 12px;
+	float:left;
+}
+.header-right ul li{
+	line-height:40px;
+	float:left;
+}
+.header-right ul li a{
+	padding-left:15px;
+	padding-right:10px;
+	text-decoration:none;
+	color:#999;
+	display:inline-block;
+}
+.join{
+	background:#d9b39b;
+	color:#fff;
+}
+.tel{
+	padding-left:35px;
+	background:url('../images/telleft.png') no-repeat;
+	background-position:15px 13px;
+}
+.help{
+	position: relative;
+}
+.help i{
+	display: inline-block;
+	position: absolute;
+	width: 6px;
+	height: 10px;
+	background: url('../images/bread_right.png') no-repeat;
+	bottom:13px;
+	right:0px;
+}
+.banner{
+	position: relative;
+	top:0;
+	width: 100%;
+	height: 575px;
+	overflow: hidden;
+}
+.banner img{
+	position: absolute;
+	top:0;
+	left: 50%;
+	margin-left: -960px;
+}
+.element{
+	width: 310px;
+	height: 380px;
+	background: #fff;
+	border:1px solid #e4e6e8;
+	position: absolute;
+	top:104px;
+	left:58%; 
+}
+.element-center{
+	width: 254px;
+	margin: 0 auto;
+}
+.element h3{
+	height: 38px;
+    font-size: 18px;
+    color: #c67c59;
+    font-family: "microsoft yahei";
+    text-align: center;
+    line-height: 38px;
+    margin-top: 14px;
+}
+.element-center input{
+	display: block;
+    width: 246px;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: #666;
+    line-height: 38px;
+    text-indent: 38px;
+}
+.element-center input.mail{
+	background: url('../images/ico-uinput.png') no-repeat 12px 12px;
+	outline: none;
+}
+.element-center input.password{
+	background: url('../images/ico-uinput.png') no-repeat 12px -24px;
+	outline: none;
+}
+.element-center input.remember{
+	vertical-align: middle;
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+.element-center span{
+	float: left;
+	font-size: 12px;
+	color: #888;
+	margin-top:17px;
+	margin-left: 6px;
+}
+.element-center a.pwd{
+	float: right;
+	font-size: 12px;
+	color: #888;
+	margin-top:17px;
+}
+.element-center a.login{
+    display: inline-block;
+    width: 246px;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 4px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #c57d5c;
+    color: #c57d5c;
+}
+.element-center a.join{
+    display: inline-block;
+    width: 246px;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 4px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #c57d5c;
+    background: #c57d5c;
+    color: #fff;
+}
+.element-center a.join:hover{
+	opacity: 0.9;
+}
+.otherlogin p{
+	position: absolute;
+    bottom: 38px;
+    left: 0;
+    width: 100%;
+    color: #c57d5c;
+    font-size: 12px;
+    text-align: center;
+    background: url('../images/otherLoginHr.png') no-repeat center center;
+}
+.otherlogin{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: #f9f9f9;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    text-align: center;
+}
+.otherlogin a{
+	display: inline-block;
+    width: 21px;
+    height: 16px;
+    margin: 18px 8px 0;
+    background: url('../images/ico-otherLogin.png') no-repeat;
+}
+.otherlogin a.qqdl:hover{
+	background-position: 0 -27px;
+}
+.otherlogin a.wxdl{
+	background-position: -42px 0;
+}
+.otherlogin a.wxdl:hover{
+	background-position: -42px -27px;
+}
+.otherlogin a.wbdl{
+	background-position: -87px 0;
+}
+.otherlogin a.wbdl:hover{
+	background-position: -87px -27px;
+}
+.otherlogin a.zfbdl{
+	background-position: -130px 0;
+}
+.otherlogin a.zfbdl:hover{
+	background-position: -130px -27px;
+}
+/*公共下部分开始*/
+footer{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	margin-top: 564px; 
+}
+.footer-top{
+	height:34px;
+	width:100%;
+	background: url('../images/footer_rp.jpg');
+}
+.footer-bigicon{
+	width: 100%;
+	background: #fff;
+}
+.footer-icon{
+	width:1000px;
+	height:150px;
+	margin:0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+.footer-icon ul{
+	list-style:none;
+}
+.footer-icon ul li{
+	float: left;
+    width: 80px;
+    height:150px;
+    text-align: center;
+    margin: 0 31px;
+}
+.footer-icon ul li a{
+	display: inline-block;
+	width:80px;
+	height:90px;
+	color: #666;
+		font-size: 14px;
+		margin-top: 30px;
+	text-decoration: none;
+	cursor: auto;
+}
+.footer-icon ul li a i{
+	display:inline-block;
+	width: 60px;
+	height: 60px;
+}
+.footer-icon ul li a span{
+	display:inline-block;
+	margin-top: 10px;
+	font-size: 14px;
+	color:#666;
+}
+.footer-icon ul li a i.one{
+	background: url('../images/icon_footer.png') no-repeat;
+}
+.footer-icon ul li a i.one:hover{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: 0px -60px;
+}
+.footer-icon ul li a i.two{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -60px 0px;
+}
+.footer-icon ul li a i.two:hover{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -60px -60px;
+}
+.footer-icon ul li a i.three{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -120px 0px;
+}
+.footer-icon ul li a i.three:hover{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -120px -60px;
+}
+.footer-icon ul li a i.four{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -180px 0px;
+}
+.footer-icon ul li a i.four:hover{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -180px -60px;
+}
+.footer-icon ul li a i.five{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -240px 0px;
+}
+.footer-icon ul li a i.five:hover{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -240px -60px;
+}
+.footer-icon ul li a i.six{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -300px 0px;
+}
+.footer-icon ul li a i.six:hover{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -300px -60px;
+}
+.footer-icon ul li a i.seven{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -360px 0px;
+}
+.footer-icon ul li a i.seven:hover{
+	background: url('../images/icon_footer.png') no-repeat;
+	background-position: -360px -60px;
+}
+.footer-gray{
+	width:100%;
+	height:66px;
+	padding-top:27px;
+	background: #e9e9e9;
+	margin: 0 auto;
+}
+.footer-gray-word{
+	width: 1000px;
+	height:39px;
+	margin: 0 auto;
+}
+.footer-gray-word-left{
+	width: 800px;
+	height: 39px;
+	float:left;
+}
+.footer-gray-word-left a{
+	text-decoration: none;
+	display: inline-block;
+	height: 39px;
+	width: 141px;
+	padding-left: 44px;
+    line-height: 39px;
+    color: #797979;
+    font-size: 20px;
+    background: url('../images/coin_left.png') no-repeat;
+}
+.footer-gray-word-left a.four{
+	margin-left: 34px;
+}
+.footer-gray-word-right p{
+	font-size: 14px;
+	margin-bottom: 6px;
+	color:#797979;
+}
+
+.footer-black{
+	width: 100%;
+	background: #797979;
+	padding-top: 56px;
+	padding-bottom: 80px;
+	margin: 0 auto;
+}
+.footer-black-center{
+	width: 1000px;
+	height:242px;
+	margin: 0 auto;
+}
+.footer-black-center ul{
+	list-style: none;
+}
+.footer-black-center-servie{
+    overflow: hidden;
+    font-family: "SimSun";
+    font-size: 14px;
+    color: #cdcdcd;
+    line-height: 22px;
+}
+.footer-black-center-servie li{
+    float: left;
+    border-left: 2px solid #959292;
+    padding: 6px 50px;
+}
+.footer-black-center-servie li.noborder{
+	border:none;
+}
+.footer-black-center-servie h4{
+	font-weight: bold;
+    color: #cdcdcd;
+    font-size: 14px;
+}
+.footer-black-center-servie a{
+	color: #cdcdcd;
+	text-decoration: none;
+		display: block;
+}
+.footer-black-center-statement{	
+	text-align: center;
+    font-size: 12px;
+    color: #c9c7c7;
+    line-height: 20px;
+    margin-top:67px;
+}
+.footer-black-center-langues{
+	font-family: "SimSun";
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.footer-black-center-langues a{
+	text-decoration: none;
+	color: #c9c7c7;
+}
+
+/*公共下部分结束*/
+/*公共部分结束*/
+	

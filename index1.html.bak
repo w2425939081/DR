@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+
+	<link rel="stylesheet" href="css/style.css">
+
+ </head>
+
+ <body>
+	<header>
+		<div class="header-left"></div>
+		<div class="header-right">
+			<div class="header-right-top">
+				<ul>
+					<li><a href="#">登录</a></li>
+					<li class="join">
+						<a href="#" style="color:#fff">加入DR族</a>
+					</li>
+					<li class="tel">400 01 13520</li>
+					<li class="phone">
+						DR族app
+						<div class="app"><img src="images/APP_ewm.jpg"></div>
+					</li>
+					<li class="word">
+						<a href="#" style="color:#666;padding:0px;">中文（简体）
+							<div class="word1">
+								<ul>
+									<li>中文（繁体）</li>
+									<li>English</li>
+								</ul>
+							</div>
+						</a>
+					</li>
+					<li class="city">所在城市商铺:</li>
+				</ul>
+			</div>
+			<div class="header-right-bottom">
+				<p>中国大陆</p>
+				<input type="text" name="user" value="" placeholder="请输入身份证号验证真爱承诺"/>
+				<a href="#">DR真爱查询</a>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li class="drnav">
+				<a href="#">DR</a>
+				<div class="drnavh">
+					<div class="drnavh-left">
+						<img src="images/drword.png"><br/>
+						<a href="#">加入DR族</a>
+					</div>
+					<div class="drnavh-right">
+						<img src="images/drimg.jpg"><br/>
+						<a href="#">搜索DR族</a>
+					</div>
+				</div>
+			</li>
+			<li class="qhzjnav">
+				<a href="#">求婚钻戒</a>
+				<div class="qhzjnavh">
+					<div class="qhzjnavh-left">
+						<a href="#"><img src="images/2015093019140361614ead1d.jpg"></a>
+						<div class="qhzjnavh-left-word">
+                            <a href="#">稀世粉钻</a>
+							<a href="#">Love Line系列</a>
+							<a href="#">Forever 系列</a>
+							<a href="#">My Heart系列</a>
+							<a href="#">True Love系列</a>
+                        </div>
+					</div>
+					<div class="qhzjnavh-right">
+						
+						<div class="qhzjnavh-right-word">
+                            <a href="#">I Swear系列</a>
+							<a href="#">Just You系列</a>
+							<a href="#">Princess系列</a>
+							<a href="#">Believe系列</a>
+							<a href="#">查看全部商品</a>
+                        </div>
+						<a href="#"><img src="images/20140902094335966c32bf74.jpg"></a>
+					</div>
+				</div>
+			</li>
+			<li class="adlwnav">
+				<a href="#">爱的礼物</a>
+				<div class="adlwnavh">
+					<div class="adlwnavh-left">
+						<a href="#"><img src="images/2015012912125452b30a7236.jpg"></a>
+						<div class="adlwnavh-left-word">
+                            <a href="#">对戒</a>
+							<a href="#">男戒</a>
+							<a href="#">吊坠</a>
+							<a href="#">耳饰</a>
+							<a href="#">手链/手镯</a>
+                        </div>
+					</div>
+					<div class="adlwnavh-right">
+						<div class="adlwnavh-right-word">
+                            <a href="#">十二星座吊坠</a>
+							<a href="#">纪念日礼物</a>
+							<a href="#">生日礼物</a>
+							<a href="#">节日礼物</a>
+							<a href="#">查看全部商品</a>
+                        </div>
+						<a href="#"><img src="images/2016060811463267ab8fc9ed.jpg"></a>
+					</div>
+				</div>
+			</li>
+			<li class="zjdznav">
+				<a href="#">钻戒定制</a>
+			</li>
+			<li class="stdnav">
+				<a href="#">DR实体店</a>
+			</li>
+			<li class="ppwhnav">
+				<a href="#">DR品牌文化</a>
+				<div class="ppwhnavh">
+					<div class="ppwhnavh-left">
+						<img src="images/navleft1.jpg"><br/>
+						<a href="#">品牌文化</a>
+					</div>
+					<div class="ppwhnavh-right">
+						<img src="images/navright1.jpg"><br/>
+						<a href="#">明星推荐</a>
+					</div>
+				</div>
+			</li>
+			<li class="sqnav">
+				<a href="#">DR社区</a>
+				<div class="sqnavh">
+					<div class="sqnavh-left">
+						<img src="images/201510211002457eb68c35c3.jpg"><br/>
+						<a href="#">永生花盒</a>
+					</div>
+					<div class="sqnavh-right">
+						<img src="images/drsq2.jpg"><br/>
+						<a href="#">走过来我就嫁给你</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</nav>
+<!-- 重复区域 -->
+	<div id="index-banner">
+		<a href="#">
+			<img src="images/20160627145241dc6e9ac911.jpg">
+		</a>
+	</div>
+
+	
+	
+	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+ </body>
+</html>

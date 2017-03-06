@@ -1,0 +1,15 @@
+﻿/*
+ 首页实体店临时救急css
+2016.01.22
+*/
+.dr_store .drstore-tab li{
+	width:80px;
+	margin-left:46px;
+	text-align:center;
+}
+.dr_store .drstore-xz{
+	width:223px;
+}
+#drtheHK{
+	display:block;
+}

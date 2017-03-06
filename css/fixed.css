@@ -1,0 +1,243 @@
+*{margin:0;padding:0;border:0;}
+.bianlan{
+	width: 50px;
+	height: 521px;
+	background: #dbc7ba;
+	position: fixed;
+	bottom:0px;
+	right:30px;
+}
+.kefu{
+	background: #d9b39b;
+    width: 58px;
+    height: 80px;
+    position: relative;
+    top: -34px;
+    left: -4px;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+.kefu p{
+	position: absolute;
+	top:50px;
+	left:12px;
+	display: inline-block;
+	color:#fff;
+	font-size: 12px;
+	width: 30px;
+	height: 30px;
+}
+.kefu-left{
+	position: absolute;
+	top:60px;
+	left:-4px;
+}
+.kefu-right{
+	position: absolute;
+	top:60px;
+	left:50px;
+}
+.gouwuche{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background:#dbc7ba url('../images/icon_servie.png') no-repeat 10px -28px;
+	top:100px;
+}
+.gouwucheword,.dingdanword,.shoucangword,.wangzhanword{
+	position: absolute;
+	width: 70px;
+	height: 40px;
+	background: #fff;
+	top:0px;
+	left:0px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+	color:#dbc7ba;
+	transform:translateX(0px);
+	-webkit-transition:all 0.5s;
+	opacity: 0;
+	z-index: -1;
+}
+.gouwuche:hover{
+	background: #fff;
+	background: #fff url('../images/icon_servie.png') no-repeat -31px -28px;
+}
+.gouwuche:hover .gouwucheword,.dingdan:hover .dingdanword,.shoucang:hover .shoucangword
+,.wangzhan:hover .wangzhanword,.erweima:hover .erweimaword,.fenxiang:hover .fenxiangword
+{
+	transform:translateX(-70px);
+	display: block;
+	opacity: 1;
+}
+.dingdan{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background: #dbc7ba url('../images/icon_servie.png') no-repeat 10px -68px;
+	top:160px;
+}
+
+.dingdan:hover{
+	background: #fff url('../images/icon_servie.png') no-repeat -31px -68px;
+}
+.shoucang{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background: #dbc7ba url('../images/icon_servie.png') no-repeat 10px -112px;
+	top:220px;
+}
+.shoucang:hover{
+	background: #fff url('../images/icon_servie.png') no-repeat -31px -112px;
+}
+.wangzhan{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background: #dbc7ba url('../images/icon_servie.png') no-repeat 10px -152px;
+	top:280px;
+}
+.wangzhan:hover{
+	background: #fff url('../images/icon_servie.png') no-repeat -31px -152px;
+}
+.erweima{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background: #dbc7ba url('../images/icon_servie.png') no-repeat 10px -192px;
+	top:340px;
+}
+.erweima:hover{
+	background: #fff url('../images/icon_servie.png') no-repeat -31px -192px;
+}
+.erweimaword{
+	position: absolute;
+	/*width: 70px;
+	height: 40px;*/
+	background: #fff;
+	top:0px;
+	left:-180px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+	color:#dbc7ba;
+	transform:translateX(0px);
+	-webkit-transition:all 0.5s;
+	opacity: 0;
+}
+.fenxiang{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background:  url('../images/icon_servie.png') no-repeat 10px -232px;
+	top:400px;
+}
+.fenxiang:hover{
+	background: #fff url('../images/icon_servie.png') no-repeat -31px -232px;
+}
+.fenxiangword{
+	position: absolute;
+	width: 230px;
+	height: 40px;
+	background: #fff;
+	top:0px;
+	left:-160px;
+	-webkit-transition:all 0.5s;
+	opacity: 0;
+}
+.top{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background:url('../images/totop.jpg') no-repeat 0px 0px;
+	top:460px;
+	cursor: pointer;
+}
+.top:hover{
+	background:url('../images/totop.jpg') no-repeat -50px 00px;
+}
+.top:hover .topword{
+	transform:translateX(-70px);
+	display: block;
+	opacity: 1;
+}
+.top:hover .topword1{
+	transform:translateX(-50px);
+	display: block;
+	opacity: 1;
+}
+.topword{
+	position: absolute;
+	width:70px;
+	height: 40px;
+	background: #fff;
+	top:0px;
+	left:0px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 40px;
+	color:#dbc7ba;
+	transform:translateX(0px);
+	-webkit-transition:all 0.5s;
+	opacity: 0;
+}
+.topword1{
+	position: absolute;
+	width:50px;
+	height: 40px;
+	left:50px;
+	background: rgba(0,0,0,0);
+	transform:translateX(0px);
+	-webkit-transition:all 0.5s;
+	opacity: 0;
+}
+
+/*fenxiangword里的图片和hover*/
+.fenxiangword i{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+.fenxiangword i.weibo{
+	top:5px;
+	left: 20px;
+	background:url('../images/ico-shares.png') no-repeat 2px 2px;
+}
+.fenxiangword i.weibo:hover{
+	background:url('../images/ico-shares.png') no-repeat 2px -66px;
+}
+.fenxiangword i.kongjian{
+	top:5px;
+	left: 60px;
+	background:url('../images/ico-shares.png') no-repeat -29px 2px;
+}
+.fenxiangword i.kongjian:hover{
+	background:url('../images/ico-shares.png') no-repeat -29px -66px;
+}
+.fenxiangword i.Qweibo{
+	top:5px;
+	left: 100px;
+	background:url('../images/ico-shares.png') no-repeat -60px 2px;
+}
+.fenxiangword i.Qweibo:hover{
+	background:url('../images/ico-shares.png') no-repeat -60px -66px;
+}
+.fenxiangword i.renren{
+	top:5px;
+	left: 140px;
+	background:url('../images/ico-shares.png') no-repeat -91px 2px;
+}
+.fenxiangword i.renren:hover{
+	background:url('../images/ico-shares.png') no-repeat -91px -66px;
+}
+.fenxiangword i.douban{
+	top:5px;
+	left: 180px;
+	background:url('../images/ico-shares.png') no-repeat 2px -32px;
+}
+.fenxiangword i.douban:hover{
+	background:url('../images/ico-shares.png') no-repeat 2px -100px;
+}
+/*fenxiang图标hover区域结束*/
